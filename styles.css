@@ -1,22 +1,21 @@
+pre
+{
+  font-size: 300%;
+  color: white;
+  border-left: 6px solid red;
+  padding:20px;
+  margin-left: 300px;
+  background-color: gray;
+  width: 50%;
+  font-family: "Abyssinica SIL", sans-serif
+}
 td, th
 {
   border: 2px solid;
   text-align: left;
   padding: 8px;
 }
-pre
-{
-  font-size: 300%;
-  color: white;
-  font-family: verdana;
-  border-left: 6px solid red;
-  padding:20px;
-  margin: 40px;
-  background-color: gray;
-  display: inline-block;
-  
-  font-family: "Abyssinica SIL", sans-serif
-}
+
 pre:hover
 {
   background-color:mediumseagreen;
@@ -63,16 +62,16 @@ tr:nth-child(even)
 }
 body
 {
-background-image: url("images.jpg");
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-position:right top;
-font-family: "Lato", sans-serif
+  background-image: url("images.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position:right top;
+  font-family: "Lato", sans-serif
 }
 #empty
 {
-float: left;
-padding-right: 1150px;
+  float: left;
+  padding-right: 1150px;
 }
 #empty:hover
 {
@@ -80,34 +79,37 @@ padding-right: 1150px;
 }
 .des
 {
-background-color: tomato;
-width: 50%;
+  background-color: tomato;
+  width: 50%;
+  border: 20px solid mediumseagreen;
+  outline-style: solid;
+  outline-color: blue;
 }
 #myHeader
 {
-color: white;
+  color: white;
 }
 .menu {
-float: left;
-width: 20%;
+  float: left;
+  width: 20%;
 }
-.menuitem {
-padding: 8px;
-margin-top: 7px;
-border-bottom: 1px solid #f1f1f1;
+.menuitem
+{
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
 }
 section
 {
-
-float:left;
+  float:left;
 }
 p
 {
-width: :10px;
+  width: :10px;
 }
 #jst
 {
-background-color: tomato;
-border: none;
-padding: 15px;
+  background-color: tomato;
+  border: none;
+  padding: 15px;
 }
