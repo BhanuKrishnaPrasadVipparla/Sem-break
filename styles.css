@@ -1,0 +1,113 @@
+td, th
+{
+  border: 2px solid;
+  text-align: left;
+  padding: 8px;
+}
+pre
+{
+  font-size: 300%;
+  color: white;
+  font-family: verdana;
+  border-left: 6px solid red;
+  padding:20px;
+  margin: 40px;
+  background-color: gray;
+  display: inline-block;
+  
+  font-family: "Abyssinica SIL", sans-serif
+}
+pre:hover
+{
+  background-color:mediumseagreen;
+}
+#list
+{
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 0px;
+  overflow:hidden;
+  background-color: #333333;
+}
+
+li a
+{
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#ab:hover
+{
+  background-color: #111111;
+}
+img
+{
+  height:300px;
+  width:500px;
+}
+#t01
+{
+  border-collapse: collapse;
+  width:80%;
+}
+tr:nth-child(even)
+{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+#ab
+{
+  float: left;
+}
+body
+{
+background-image: url("images.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position:right top;
+font-family: "Lato", sans-serif
+}
+#empty
+{
+float: left;
+padding-right: 1150px;
+}
+#empty:hover
+{
+  background-color: #333333;
+}
+.des
+{
+background-color: tomato;
+width: 50%;
+}
+#myHeader
+{
+color: white;
+}
+.menu {
+float: left;
+width: 20%;
+}
+.menuitem {
+padding: 8px;
+margin-top: 7px;
+border-bottom: 1px solid #f1f1f1;
+}
+section
+{
+
+float:left;
+}
+p
+{
+width: :10px;
+}
+#jst
+{
+background-color: tomato;
+border: none;
+padding: 15px;
+}
