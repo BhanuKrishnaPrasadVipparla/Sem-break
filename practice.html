@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <title>After a long time</title>
 </head>
 <link rel="stylesheet" href="styles.css">
 <body>
   <meta name="viewport" content="width=device-width,initail-scale=1.0">
-  <ul id="list">
-    <li id="ab"><a href="https://www.youtube.com/">YOUTUBE</a></li>
-    <li id="ab"><a href="https://www.instagram.com/">INSTA</a></li>
-    <li id="ab"><a href="#bomma">😍</a></li>
-    <li id="empty"><a></a></li>
-    <li id="ab"><a>Search</a></li>
-
+  <ul>
+    <li><a href="https://www.youtube.com/">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#bomma">Our Clients</a></li>  
+    <li><a href="#contact">Contact Us</a></li>
+    <li class="dropdown" style="float: right;">
+      <a href="" class="dropbtn">HOVER</a>
+      <div class="dropdown-content">
+        <a href="https://www.w3schools.com/html/default.asp">HTML</a>
+        <a href="https://www.w3schools.com/css/default.asp">CSS</a>
+        <a href="https://www.w3schools.com/js/default.asp">JS</a>
+      </div>
+    </li>
   </ul>
-
   <br>
   <br>
-  <section>
-    <p>An example for Section</p>
-  </section>
+  
   <pre title='Boreddd' style="font-size:300%;">Web developemnt kastalu
   What to dooo:
         1.HTML=DONE (5 days)
-        2.CSS
+        2.CSS=DONE(6 days)
         3.JAVA SCRIPT
         4.PHP
         5.REACT
@@ -56,11 +60,6 @@
       <br>
     <br>
     <img src="/home/bhanu/Pictures/cam.jpg" alt="" id="bomma">
-    <ul style="list-style-type:none;">
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Boost</li>
-    </ul>
     <dl class="des">
       <dt>Coffee</dt>
       <dd>-Most popular bevarage</dd>
@@ -69,11 +68,11 @@
       <dt>Boost</dt>
       <dd>-For stamina</dd>
     </dl>
-  <div class="try">
+  <div class="try" id="wtf">
       <h1>Checking the styles</h1>
       <h3>Jst a try</h3>
   </div>
-  
+
   <form action="try.html" target="_blank">
     <label for="fname">FIRST NAME</label><br>
     <input type="text" name="fname" id="fname" pattern="[A-Z]{3}-[a-z]{2}-[0-9]{3}-[A-Za-z]{4}" placeholder="BHA-nu-123-Bhan">
@@ -81,7 +80,7 @@
     <br>
     <br>
     <br>
-    <label for="pl">PLACES:</label>
+    <label for="pl">PLACES:</label><br>
     <select class="" name="places" id="pl">
       <option value="KOTTAYAM">KOTTAYAM</option>
       <option value="KANYAKUMARU">KANYAKUMARI</option>
@@ -100,6 +99,20 @@
     <br><br>
     <input type="file" name="" value="">
   </form>
+  <br>
+  <div class="crazy">
+    WORKING :)
+    <div class="ver">
+      <a href="#bomma">HTML</a>
+      <a href="#bomma">CSS</a>
+      <a href="#a">JS</a>
+    </div>
+  </div>
+  <script src="js.js"></script>
+  <p id="para">JST A TRY</p>
+  <p id="para1">OBJ</p>
+  <button onclick="practice()">CLICK ME!!</button>
+  <p id="demo">NOT WORKING</p>
 <!--comments anta-->
   </html>
 </body>
